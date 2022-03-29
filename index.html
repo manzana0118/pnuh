@@ -14,9 +14,16 @@
     <![endif]-->
     <script src="js/prefixfree.min.js"></script>
     <script src="js/jquery.min.js"></script>
+
     <script src="js/swiper/swiper.min.js"></script>
-    <script src="js/respond.min.js"></script> 
     <link rel="stylesheet" href="js/swiper/swiper.min.css">
+
+    <!-- aos 관련 코드 -->
+    <link href="js/aos/aos.css" rel="stylesheet">
+    <script src="js/aos/aos.js"></script>
+
+    <script src="js/respond.min.js"></script> 
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
@@ -135,7 +142,7 @@
     <div class="quick-menu">
         <div class="quick-banner">
             <div class="container">
-                <img src="/images/quick_image.png" alt="상단배너" class="quick-img">
+                <img src="images/quick_image.png" alt="상단배너" class="quick-img">
                 <div class="quick-day">
                     <button class="quick-day-bt">
                         하루동안 열지않기
@@ -150,8 +157,8 @@
                     <div class="quick-reserve-top">
                         <h2>첫 진료 간편예약</h2>
                         <p>
-                            연락처를 남겨주시면 전문상담원이 빠른 진료
-                            예약을 <br> 도와드립니다.(평일 09:00 ~ 17:30)
+                            연락처를 남겨주시면 전문상담원이 빠른 진료예약을 <br> 
+                            도와드립니다.(평일 09:00 ~ 17:30)
                         </p>
 
                         <form action="" method="get" class="reserve">
@@ -186,9 +193,7 @@
                 <div class="quick-right">
                     <div class="quick-search">
                         <h2>의료진 찾기</h2>
-                        <p>
-                            부산대학교병원 의료진은 환자를 위해 항상 노력하고 있습니다.
-                        </p>
+                        <p>부산대학교병원 의료진은 환자를 위해 항상 노력하고 있습니다.</p>
                         <form action="" class="search">
                             <input type="text" class="search-txt" placeholder="진료과/진료분야/의료진 입력">
                             <input type="image" src="images/ico_search_white.png" class="search-bt">
@@ -425,7 +430,7 @@
                                         <a href="#" class="submenu-list-tit">예약일정조회</a>
                                         <a href="#" class="submenu-list-tit">이력조회</a>
                                     </li>
-                                    <li>
+                                    <li class="no-line">
                                         <a href="#" class="submenu-list-tit">의무기록사본발급신청</a>
                                         <ul class="submenu-list-sub">
                                             <li><a href="#">인터넷신청</a></li>
@@ -433,6 +438,7 @@
                                         </ul>
                                     </li>
                                     <li class="no-line">
+
                                     </li>
                                 </ul>
                             </div>
@@ -462,7 +468,7 @@
                                         <a href="#" class="submenu-list-tit">진료지원부서</a>
                                         <a href="#" class="submenu-list-tit">비급여진료수가</a>
                                     </li>
-                                    <li>
+                                    <li class="no-line">
                                         <a href="#" class="submenu-list-tit">비자신체검사안내</a>
                                         <a href="#" class="submenu-list-tit">다학체 통합진료 안내</a>
                                     </li>
@@ -509,7 +515,7 @@
                                         <a href="#" class="submenu-list-tit">예약일정조회</a>
                                         <a href="#" class="submenu-list-tit">이력조회</a>
                                     </li>
-                                    <li>
+                                    <li class="no-line">
                                         <a href="#" class="submenu-list-tit">의무기록사본발급신청</a>
                                         <ul class="submenu-list-sub">
                                             <li><a href="#">인터넷신청</a></li>
@@ -684,7 +690,7 @@
                     <div class="news-right">
                         <ul class="news-list">
                             <li>
-                                <a href="#">
+                                <a href="#" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                                     <h3>‘전문의로 가는 첫걸음’...교육연구팀, 2022년도 인턴 모집 돌입</h3>
                                     <p>
                                         2022년도 제86회 의사 국가시험에서 부산대학교 의과대학 이혜윤 학생이 320점 만점에 303점으로 전국 수석을 차지했다.
@@ -695,7 +701,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                                     <h3>성형외과 배용찬 교수, 25여년간 구순구개열 환아들과 함께 성장</h3>
                                     <p>
                                         2022년도 제86회 의사 국가시험에서 부산대학교 의과대학 이혜윤 학생이 320점 만점에 303점으로 전국 수석을 차지했다.
@@ -706,7 +712,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
                                     <h3>성형외과 배용찬 교수, 25여년간 구순구개열 환아들과 함께 성장</h3>
                                     <p>
                                         2022년도 제86회 의사 국가시험에서 부산대학교 의과대학 이혜윤 학생이 320점 만점에 303점으로 전국 수석을 차지했다.
@@ -727,31 +733,37 @@
                     <ul class="link-list">
                         <li>
                             <a href="#">
+                                <img src="images/h_01.png" alt="건강증진센터">
                                 건강증진센터
                             </a>
                         </li>
                         <li>
                             <a href="#">
+                                <img src="images/h_02.png" alt="진료협력센터">
                                 진료협력센터
                             </a>
                         </li>
                         <li>
                             <a href="#">
+                                <img src="images/h_03.png" alt="생명사랑소식지">
                                 생명사랑 소식지
                             </a>
                         </li>
                         <li>
                             <a href="#">
+                                <img src="images/h_04.png" alt="인재채용">
                                 인재채용
                             </a>
                         </li>
                         <li>
                             <a href="#">
+                                <img src="images/h_05.png" alt="주요전화번호">
                                 주요전화번호
                             </a>
                         </li>
                         <li>
                             <a href="#">
+                                <img src="images/h_06.png" alt="사본발급신청">
                                 사본발급신청
                             </a>
                         </li>

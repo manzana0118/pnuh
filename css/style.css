@@ -1710,35 +1710,15 @@ body {
     text-decoration: underline;
 }
 
-.link-list li:nth-child(1) a {
-    background: url('../images/h_01.png') no-repeat;
-    background-position: center top;
+.link-list li img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    display: block;
+
 }
 
-.link-list li:nth-child(2) a {
-    background: url('../images/h_02.png') no-repeat;
-    background-position: center top;
-}
-
-.link-list li:nth-child(3) a {
-    background: url('../images/h_03.png') no-repeat;
-    background-position: center top;
-}
-
-.link-list li:nth-child(4) a {
-    background: url('../images/h_04.png') no-repeat;
-    background-position: center top;
-}
-
-.link-list li:nth-child(5) a {
-    background: url('../images/h_05.png') no-repeat;
-    background-position: center top;
-}
-
-.link-list li:nth-child(6) a {
-    background: url('../images/h_06.png') no-repeat;
-    background-position: center top;
-}
 
 /* 건강 정보 */
 .health {
