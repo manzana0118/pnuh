@@ -102,6 +102,15 @@ body {
     border-radius: 10px;
 }
 
+.modal-wrap i {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+
+    font-size: 30px;
+}
+
 .modal-wrap h2 {
     position: absolute;
     left: 50%;
@@ -111,6 +120,19 @@ body {
     font-weight: 600;
     font-size: 20px;
     color: #000;
+
+    white-space: nowrap;
+    text-align: center;
+}
+
+.modal-wrap span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 162px;
+    font-family: 'Noto Sans KR';
+    font-size: 13px;
+    color: #666;
 
     white-space: nowrap;
     text-align: center;
@@ -127,7 +149,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 10px;
+    bottom: 20px;
     display: block;
     width: 150px;
     height: 30px;
@@ -1250,10 +1272,6 @@ body {
     background-color: #fff;
     border-top: 1px solid #e0e1e5;
     margin-top: 100px;
-}
-
-.submenu-wrap > .container {
-
 }
 
 .submenu-left {
